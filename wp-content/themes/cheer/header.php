@@ -34,6 +34,7 @@
 				</a>
 			<?php } // if ( ! empty( $header_image ) ) ?>
 		</div>
+		<div style="height=100px"/>
 		<hgroup>
 			<!-- <div class="elf"></div> -->
 			<h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
@@ -43,7 +44,6 @@
 		<nav role="navigation" class="site-navigation main-navigation">
 			<h1 class="assistive-text"><?php _e( 'Menu', 'cheer' ); ?></h1>
 			<div class="assistive-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'cheer' ); ?>"><?php _e( 'Skip to content', 'cheer' ); ?></a></div>
-<div/><div/><div/>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- .site-navigation .main-navigation -->
 	</header><!-- #masthead .site-header -->

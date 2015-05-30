@@ -461,7 +461,7 @@ a:active {
 
 /* Traditional */
 .theme-color-traditional #masthead {
-	background-color: #FAF2DF;
+	background-color: #FCF4E1;
 	background-image: url(img/presentsbg.jpg);
 
 }
@@ -532,10 +532,10 @@ a:active {
 .theme-color-traditional .site-title a,
 .theme-color-traditional .site-title a:visited,
 .theme-color-traditional .site-title a:hover {
-	color: #fff;
+	color: #00000;
 }
 .theme-color-traditional .site-description {
-	color: #fff;
+	color: #00000;
 }
 .theme-color-traditional #infinite-handle span {
 	background-color: #4b774c;
@@ -588,7 +588,7 @@ a:active {
 .site-title {
 	display: block;
 	font-family: Rye, script;
-	margin: 0 auto;
+	margin: 0 auto;margin-top: 150px;
 	text-align: center;
 }
 .site-description {
@@ -606,7 +606,6 @@ a:active {
 	display: block;
 	float: left;
 	font-variant: small-caps;
-	margin: 0;
 	padding: .5em 0;
 	text-align: center;
 	width: 100%;
